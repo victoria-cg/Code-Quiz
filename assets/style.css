@@ -1,0 +1,5 @@
+/*need styles to set starting colors, align div for main content, align header items*/
+Header {
+    display: flex;
+    justify-content: space-between;
+}
