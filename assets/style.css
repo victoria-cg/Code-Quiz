@@ -1,5 +1,19 @@
 /*need styles to set starting colors, align div for main content, align header items*/
+/*CSS for the header sets header items to be positioned on far left and right of container*/
 Header {
     display: flex;
     justify-content: space-between;
+}
+
+/*Code below adds flex styles to center the starting content on page load of the quiz-content container, an H1, p, and button element*/
+.quiz-content{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.quiz-content h1, p{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
