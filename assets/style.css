@@ -4,6 +4,9 @@ Header {
     display: flex;
     justify-content: space-between;
 }
+.scores{
+    color: darkviolet; /*sets color for scoreboard link*/
+}
 
 /*Code below adds flex styles to center the starting content on page load of the quiz-content container, an H1, p, and button element*/
 .quiz-content{
@@ -16,4 +19,8 @@ Header {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+.quiz-content button{  /*this adds color to the start button*/
+    background-color: indigo;
+    color: white;
 }
